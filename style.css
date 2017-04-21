@@ -2,6 +2,7 @@
 body{  /*define margin and padding for body if using FLOAT*/
 	margin: 0;
 	padding: 0;
+	background: #fff;
 }
 
 .container{
@@ -10,29 +11,38 @@ body{  /*define margin and padding for body if using FLOAT*/
 	margin-right: auto;
 }
 
-/*
-h1{
-	font-size: 2.25em;
-	font-weight: 900;
-	color: inherit;
-	letter-spacing: -2px;
-	line-height: 1.25em;
+p.small{
+	line-height: 20%;
 }
-*/
+
+p.big{
+	line-height: 500%;
+}
+
+a {
+	text-decoration: none;
+	color: #7BAFD4;
+}
+
+a:hover{
+	color:grey;
+}
 
 /* Header */
 .header{
-	height: 9%;
+	height: 10%;
    	background-color: rgba(255, 255, 255, 0.95);
   	/*border-bottom: 2px solid #ddd; */
   
   	font-family: 'Oswald', sans-serif;
   	font-weight: 300;
   	font-size: 20px;
+
+  	margin-bottom: 20px;
 }
 
 #unc-logo{
-	padding: 5px;
+	padding: 1%;
 	width: 20%;
 	float: left;
 }
@@ -40,9 +50,8 @@ h1{
 /* Menu */
 .header .menu{
 	float: right;
-	margin-right: 1%;
 	list-style: none;
-  	margin-top: 3%;
+	padding-top: 2%;
 }
 
 .menu > li{
@@ -53,15 +62,56 @@ h1{
 }
 
 /* Front Page */
-.intro{
-	height: 89%;
-	text-align: center;
-}
 
-#intro{
-	background: url('FB.jpg');
+.intro{
+	margin-top: 0px;
+
+	background: url('game.jpg');
 	background-size: 100% 100%, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, bottom center;
-	/*background-repeat: repeat, no-repeat;*/
+
+	height: 90%;
+	width: 100%;
+
+	position: relative;
 }
+
+.introText{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	margin: 0 auto;
+	width: 50%;
+
+	text-align: center;
+	font-size: 250%;
+
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*
+.intro header{
+	display: block;
+	position: relative;
+	text-align: center;
+	top:0.5em;
+	bottom: 0.5em;
+
+
+	font-size: 2em; 
+	line-height: 1.25em;
+	letter-spacing: -2px;
+
+}
+.intro p{
+	
+	line-height: 1.25em;
+	display: block;
+	color:white;
+
+}
+*/
+
+
