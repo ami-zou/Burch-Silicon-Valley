@@ -43,15 +43,16 @@ a:hover{
 
 #unc-logo{
 	padding: 1%;
+	padding-left: 2%;
 	width: 20%;
 	float: left;
 }
 
-/* Menu */
 .header .menu{
 	float: right;
 	list-style: none;
 	padding-top: 2%;
+	padding-right: 1%;
 }
 
 .menu > li{
@@ -91,27 +92,37 @@ a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/*
 .intro header{
-	display: block;
-	position: relative;
+
+}
+
+.intro h3{
+	font-family: 'Oswald', sans-serif;
+}
+
+/**********************************************************************************
+********* 						Reading.html 						   ************
+***********************************************************************************/
+.reading-class{
+	float: right;
+	width: 50%;
+}
+
+.books{
+	margin-left: 0px;
+	float: left;
+}
+
+.book{
+	height: 20%;
 	text-align: center;
-	top:0.5em;
-	bottom: 0.5em;
-
-
-	font-size: 2em; 
-	line-height: 1.25em;
-	letter-spacing: -2px;
-
+  color: #222;
+  background: rgba(255,255,255,.9);
+  
+  /*border-spacing: 2px;
+  border-color: gray;
+  */
+  font-family: arial,sans-serif;
+  border-bottom: 1px #ddd solid;
 }
-.intro p{
-	
-	line-height: 1.25em;
-	display: block;
-	color:white;
-
-}
-*/
-
 
