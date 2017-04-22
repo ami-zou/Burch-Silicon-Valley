@@ -67,7 +67,7 @@ a:hover{
 .intro{
 	margin-top: 0px;
 
-	background: url('game.jpg');
+	background: url('../images/game.jpg');
 	background-size: 100% 100%, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, bottom center;
@@ -101,29 +101,4 @@ a:hover{
 }
 
 
-/**********************************************************************************
-********* 						Reading.html 						   ************
-***********************************************************************************/
-.reading-class{
-	float: right;
-	width: 50%;
-}
-
-.books{
-	margin-left: 0px;
-	float: left;
-}
-
-.book{
-	height: 20%;
-	text-align: center;
-  color: #222;
-  background: rgba(255,255,255,.9);
-  
-  /*border-spacing: 2px;
-  border-color: gray;
-  */
-  font-family: arial,sans-serif;
-  border-bottom: 1px #ddd solid;
-}
 
